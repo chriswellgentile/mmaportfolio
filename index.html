@@ -941,7 +941,7 @@ function loadWeek(n) {
   const area = document.getElementById('video-embed-area');
   const ytId = w.ytId;
   if (ytId && ytId !== 'youryoutubelink') {
-    area.innerHTML = `<iframe src="https://www.youtube.com/embed/${ytId}" allowfullscreen></iframe>`;
+    area.innerHTML = `<iframe src="https://www.youtube.com/${ytId}" allowfullscreen></iframe>`;
   } else {
     area.innerHTML = `<div class="video-placeholder">
       <div class="play-icon">▶</div>
